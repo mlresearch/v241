@@ -1,0 +1,92 @@
+---
+booktitle: 'Proceedings of the Fifth International Workshop on Learning with Imbalanced
+  Domains: Theory and Applications'
+shortname: LIDTA
+year: '2023'
+volume: '241'
+start: 2023-09-18
+end: 2023-09-18
+published: 2024-06-03
+url: https://proceedings.mlr.press
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: LIDTA2023
+month: 0
+cycles: false
+bibtex_editor: Moniz, Nuno and Branco, Paula and Torgo, Luis and Japkowicz, Nathalie
+  and Wozniak, Michal and Wang, Shuo
+editor:
+- given: Nuno
+  family: Moniz
+- given: Paula
+  family: Branco
+- given: Luis
+  family: Torgo
+- given: Nathalie
+  family: Japkowicz
+- given: Michal
+  family: Wozniak
+- given: Shuo
+  family: Wang
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the Fifth International Workshop on Learning with Imbalanced Domains: Theory and Applications
+    Held in ECML-PKDD, Turin, Italy on 18 September 2023
+
+  Published as Volume 241 by the Proceedings of Machine Learning Research on 03 June 2024.
+
+  Volume Edited by:
+    Nuno Moniz
+    Paula Branco
+    Luis Torgo
+    Nathalie Japkowicz
+    Michal Wozniak
+    Shuo Wang
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 18 Sep
+author:
+  name: PMLR
+baseurl: "/v241"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: mlresearch/jekyll-theme
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v241
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v241
+email: ''
+conference:
+  name: 'Fifth International Workshop on Learning with Imbalanced Domains: Theory
+    and Applications'
+  url:
+  location: ECML-PKDD, Turin, Italy
+  dates:
+  - 2023-09-18
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+orig_bibfile: "/Users/neil/mlresearch/v241/lidta23.bib"
+# Site settings
+# Original source:  /Users/neil/mlresearch/v241/lidta23.bib

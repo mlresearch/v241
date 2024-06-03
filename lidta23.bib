@@ -1,0 +1,142 @@
+
+@Proceedings{LIDTA2023,
+  booktitle = {Proceedings of the Fifth International Workshop on Learning with Imbalanced Domains: Theory and Applications},
+  name = {Fifth International Workshop on Learning with Imbalanced Domains: Theory and Applications},
+  shortname = {LIDTA},
+  year = {2023},
+  editor =  {Moniz, Nuno and Branco, Paula and Torgo, Luis and Japkowicz, Nathalie and Wozniak, Michal and Wang, Shuo},
+  volume =    {241},
+  start = {2023-09-18},
+  end = {2023-09-18},
+  published = {2024-06-03},
+  address = {ECML-PKDD, Turin, Italy},
+  url = {https://lidta.github.io/}
+}
+
+
+
+
+@InProceedings{horna23a,
+  title = 	 {Deep Similarity Learning Loss Functions in Data Transformation for Class Imbalance},
+  author = 	 {Damian Horna and Mateusz Lango and Jerzy Stefanowski},
+  booktitle = {Proceedings of the Fifth International Workshop on Learning with Imbalanced Domains: Theory and Applications (LIDTA23)},
+  pages = 	 {1--15},
+  year = 	 {2023},
+  editor = 	 {Moniz, Nuno and Branco, Paula and Torgo, Luis and Japkowicz, Nathalie  and Wozniak, Michal and Wang, Shuo},
+  volume = 	 {241},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = {ECML-PKDD, Turin, Italy},
+  month = 	 {18--22 Sept},
+  publisher = 	{PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v241/horna23a/horna23a.pdf},
+  url = 	 {http://proceedings.mlr.press/v241/horna23a.html},
+  abstract = {Improving the classification of multi-class imbalanced data is more difficult than its two-
+class counterpart. In this paper, we use deep neural networks to train new representations of
+tabular multi-class data. Unlike the typically developed re-sampling pre-processing meth-
+ods, our proposal modifies the distribution of features, i.e. the positions of examples in
+the learned embedded representation, and it does not modify the class sizes. To learn
+such embedded representations we introduced various definitions of triplet loss functions:
+the simplest one uses weights related to the degree of class imbalance, while the next pro-
+posals are intended for more complex distributions of examples and aim to generate a safe
+neighborhood of minority examples. Similarly to the resampling approaches, after applying
+such preprocessing, different classifiers can be trained on new representations. Experiments
+with popular multi-class imbalanced benchmark data sets and three classifiers showed the
+advantage of the proposed approach over popular pre-processing methods as well as basic
+versions of neural networks with classical loss function formulations.}
+}
+
+
+
+@InProceedings{stando23a,
+  title = 	 {The Effect of Balancing Methods on Model Behavior in Imbalanced Classification Problems},
+  author = 	 {Adrian Stando and Mustafa Cavus and Przemyslaw Biecek},
+  booktitle = {Proceedings of the Fifth International Workshop on Learning with Imbalanced Domains: Theory and Applications (LIDTA23)},
+  pages = 	 {16--30},
+  year = 	 {2023},
+  editor = 	 {Moniz, Nuno and Branco, Paula and Torgo, Luis and Japkowicz, Nathalie  and Wozniak, Michal and Wang, Shuo},
+  volume = 	 {241},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = {ECML-PKDD, Turin, Italy},
+  month = 	 {18--22 Sept},
+  publisher = 	{PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v241/stando23a/stando23a.pdf},
+  url = 	 {http://proceedings.mlr.press/v241/stando23a.html},
+  abstract = {Imbalanced data poses a significant challenge in classification as model performance is af-
+fected by insufficient learning from minority classes. Balancing methods are often used to
+address this problem. However, such techniques can lead to problems such as overfitting or
+loss of information. This study addresses a more challenging aspect of balancing methods
+- their impact on model behavior. To capture these changes, Explainable Artificial Intel-
+ligence tools are used to compare models trained on datasets before and after balancing.
+In addition to the Variable Importance method, this study uses Partial Dependence and
+Accumulated Local Effects profiles. Real and simulated datasets are tested, and an open-
+source Python package edgaro is developed to facilitate this analysis. The results obtained
+show significant changes in model behavior due to balancing methods, which can lead
+to biased models toward a balanced distribution. These findings confirm that balancing
+analysis should go beyond model performance comparisons to achieve higher reliability of
+machine learning models. Therefore, we propose a new method performance gain plot
+for informed data balancing strategy to make an optimal selection of balancing method by
+analyzing the measure of change in model behavior versus performance gain.}
+}
+
+
+@InProceedings{bellinger23a,
+  title = 	 {Performance Estimation bias in Class Imbalance with
+Minority Subconcepts},
+  author = 	 {Colin Bellinger and Roberto Corizzo and Nathalie Japkowicz},
+  booktitle = {Proceedings of the Fifth International Workshop on Learning with Imbalanced Domains: Theory and Applications (LIDTA23)},
+  pages = 	 {31--44},
+  year = 	 {2023},
+  editor = 	 {Moniz, Nuno and Branco, Paula and Torgo, Luis and Japkowicz, Nathalie  and Wozniak, Michal and Wang, Shuo},
+  volume = 	 {241},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = {ECML-PKDD, Turin, Italy},
+  month = 	 {18--22 Sept},
+  publisher = 	{PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v241/bellinger23a/bellinger23a.pdf},
+  url = 	 {http://proceedings.mlr.press/v241/bellinger23a.html},
+  abstract = {Learning classifiers from imbalanced data is known to be a challenging and important prob-
+lem in machine learning. As a results, the topic has been studied from a wide variety of
+angles. This includes the choice of evaluation measures and understanding the implica-
+tions of minority class subconcepts on model learning. In this work, however, we argue
+that the community may not be using precise enough evaluation measures when assessing
+the performance of imbalanced learning pipelines on data that includes an imbalance in
+the minority class subconcepts. We show that the performance estimates from standard
+measures used in imbalance learning are biased towards the largest minority subconcepts,
+and that standard imbalance correction techniques can exacerbate the bias. Finally, we
+demonstrate that the bias can, in part, be corrected by applying instance weighting in the
+evaluation measures.}
+}
+
+
+
+@InProceedings{krief23a,
+  title = 	 {FSDA: Tackling Tail-Event Analysis in Imbalanced Time Series Data with Feature Selection and Data Augmentation},
+  author = 	 {Raphael Krief and Eric Benhamou and Beatrice Guez and Jean-Jacques Ohana and David Saltiel and Rida Laraki and Jamal Atif},
+  booktitle = {Proceedings of the Fifth International Workshop on Learning with Imbalanced Domains: Theory and Applications (LIDTA23)},
+  pages = 	 {45--58},
+  year = 	 {2023},
+  editor = 	 {Moniz, Nuno and Branco, Paula and Torgo, Luis and Japkowicz, Nathalie  and Wozniak, Michal and Wang, Shuo},
+  volume = 	 {241},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = {ECML-PKDD, Turin, Italy},
+  month = 	 {18--22 Sept},
+  publisher = 	{PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v241/krief23a/krief23a.pdf},
+  url = 	 {http://proceedings.mlr.press/v241/krief23a.html},
+  abstract = {Efficient management of imbalanced time series data is of paramount importance when
+data located in the tails, particularly extreme values, have a substantial influence on predic-
+tive outcomes. This paper introduces FSDA (Feature Selection and Data Augmentation),
+a combined approach of feature selection and data augmentation, to address this issue.
+FSDA aims to identify the most predictive features for tail data, which may exhibit differ-
+ent sensitivities compared to the rest of the dataset. Data augmentation, a conventional
+technique for handling imbalanced data, is employed to enhance the accuracy of machine
+learning regression methods. Augmented information is strategically incorporated using
+time-warping and drift methods to maintain the temporal integrity of the data. Empirical
+evidence based on a use case in financial data reveals that FSDA consistently outperforms
+feature selection (FS) and data augmentation (DA) methods across all percentiles ranging
+from 85 to 99, demonstrating its efficacy in managing imbalanced time series data and
+improving predictive accuracy.}
+}
+
+
+
